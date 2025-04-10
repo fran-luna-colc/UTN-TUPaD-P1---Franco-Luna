@@ -1,9 +1,7 @@
 """
-6) Crear un programa que pida al usuario un número e imprima por pantalla la tabla de
-multiplicar de dicho número.
+6) Desarrolla un programa que imprima en pantalla todos los números pares comprendidos
+entre 0 y 100, en orden decreciente.
 """
 
-num=int(input("Ingresar un número: "))
-
-for i in range (1,11,1):
-    print (f"{num} * {i} = {num*i}")
+for i in range (98,0,-2):
+    print (i)

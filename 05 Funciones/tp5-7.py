@@ -14,7 +14,5 @@ num2=int(input("Ingresar el segundo número: "))
 
 ope = operaciones_basicas(num1,num2)
 
-
-#print (f"Los valores {num1} y {num2} sumados son {ope[0]}, restados {ope[1]}, multiplicados {ope[2]} y divididos {ope[3]}")
-
-print (f"Los valores {num1} y {num2} sumados son {}, restados {}, multiplicados {} y divididos {}".format(*ope))
+# Invocación de los valores alojados en el tuple "ope"
+print (f"Los valores {num1} y {num2} sumados son {ope[0]}, restados {ope[1]}, multiplicados {ope[2]} y divididos {ope[3]}")

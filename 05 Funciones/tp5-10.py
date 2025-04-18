@@ -9,6 +9,7 @@ def calcular_promedio(a, b, c):
     promedio = (a+b+c)/3
     return promedio
 
+# función principal
 num1 = float(input("Ingresar el primer valor: "))
 num2 = float(input("Ingresar el segundo valor: "))
 num3 = float(input("Ingresar el tercer valor: "))

@@ -8,7 +8,7 @@ from math import pi #importar la constante de pi del modulo de math
 
 #función calcular_area_circulo
 def calcular_area_circulo(radio):
-    return float((pi*(radio ** 2)))
+    return float((pi*(radio ** 2))) #Tiene que ponerse como float o int para que sea ejecutada
 
 #función calcular_perimetro_circulo
 def calcular_perimetro_circulo(radio):
